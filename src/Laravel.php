@@ -162,6 +162,7 @@ final class Laravel extends Config
             'single_class_element_per_statement' => true,
             'single_import_per_statement' => true,
             'single_line_after_imports' => true,
+            'single_space_after_construct' => true,
             'single_quote' => true,
             'space_after_semicolon' => true,
             'standardize_not_equals' => true,
