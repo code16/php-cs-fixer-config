@@ -1,0 +1,29 @@
+{
+  "name": "code16/php-cs-fixer-config",
+  "description": "Provides configurations for friendsofphp/php-cs-fixer, used within Code16",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Arnaud Becher",
+      "email": "arnaud@code16.fr"
+    },
+    {
+      "name": "Antoine Guingand",
+      "email": "antoine@code16.fr"
+    }
+  ],
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "require": {
+    "php": "^8.1",
+    "friendsofphp/php-cs-fixer": "^2.3.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Code16\\CS\\Config\\": "src"
+    }
+  }
+}
