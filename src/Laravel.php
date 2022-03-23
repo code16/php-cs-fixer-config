@@ -21,7 +21,7 @@ final class Laravel extends Config
         $this->header = $header;
     }
 
-    public function getRules()
+    public function getRules(): array
     {
         return [
             '@Laravel' => [
