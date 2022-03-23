@@ -4,7 +4,7 @@ namespace Code16\CS\Config;
 
 use PhpCsFixer\Config;
 
-final class Php81 extends Config
+final class Laravel extends Config
 {
     /**
      * @var string
