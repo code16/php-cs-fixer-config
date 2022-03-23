@@ -57,9 +57,6 @@ final class Laravel extends Config
             'indentation_type' => true,
             'integer_literal_case' => true,
             'braces' => false,
-            'LaravelCodeStyle/laravel_phpdoc_alignment' => true,
-            'LaravelCodeStyle/laravel_phpdoc_order' => true,
-            'LaravelCodeStyle/laravel_phpdoc_separation' => true,
             'lowercase_cast' => true,
             'constant_case' => [
                 'case' => 'lower',
