@@ -120,7 +120,7 @@ final class Laravel extends Config
             'lambda_not_used_import' => true,
             'no_useless_return' => true,
             'no_whitespace_before_comma_in_array' => true,
-            'no_whitespace_in_blank_line' => true,
+            'no_whitespace_in_blank_line' => false,
             'normalize_index_brace' => true,
             'not_operator_with_successor_space' => true,
             'object_operator_without_whitespace' => true,
